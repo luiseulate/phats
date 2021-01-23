@@ -1,14 +1,12 @@
 import useSWR from 'swr'
 import fetcher from '../../lib/fetcher'
+import { Loader } from '../Loader'
 
 const StravaKilometers = () => {
     const { data } = useSWR('/api/strava', fetcher)
     const distancia = data
-
-    // conversions
-    const distanceConverted = (distancia / 1000).toFixed(0)
-
-    return (distancia ? distancia : '---')
+    const distanceConverted = (data?.distance / 1000).toFixed(0)
+    return (distancia ? distanceConverted : <Loader />)
 }
 
 export default StravaKilometers
