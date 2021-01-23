@@ -22,8 +22,6 @@ class MyDocument extends Document {
           <Main />
           <NextScript />
           <Footer />
-          <script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-          
         </body>
       </Html>
     )
