@@ -10,18 +10,12 @@ class MyDocument extends Document {
   render() {
     return (
       <Html>
-        <Head>
-          <meta charset="utf-8" />
-          <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-          <title>Luis Martínez - Strava</title>
-          <meta name="description" content="Physical activity stats from Strava" />
-          <meta name="viewport" content="width=device-width, initial-scale=1" />
-          <script type="text/javascript" src="/static/modernizr-2.8.3-respond-1.4.2.min.js"></script>
-        </Head>
-        <body>
+        <Head />
+        <body class="is-preload">
           <Main />
           <NextScript />
           <Footer />
+          <script src="/static/assets/js/scripts.js"></script>
         </body>
       </Html>
     )
