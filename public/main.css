@@ -683,6 +683,8 @@ input, select, textarea {
 		width: 100%;
 	}
 
+	.copyright { font-size: 1.5vmin; }
+
 /* Wide */
 
 	@media screen and (max-width: 1680px) {
