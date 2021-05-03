@@ -22,14 +22,14 @@ export default async (req, res) => {
     const response = await fetch('https://www.strava.com/api/v3/athletes/29645533/stats?access_token=' + reAuthJson.access_token)
     const json = await response.json()
 
-    const rundistance = json.all_run_totals.distance
-    const runtime = json.all_run_totals.moving_time
+    const rundistance = json.ytd_run_totals.distance
+    const runtime = json.ytd_run_totals.moving_time
     
-    const bikedistance = json.all_ride_totals.distance
-    const biketime = json.all_ride_totals.moving_time
+    const bikedistance = json.ytd_ride_totals.distance
+    const biketime = json.ytd_ride_totals.moving_time
     
-    const swimdistance = json.all_swim_totals.distance
-    const swimtime = json.all_swim_totals.moving_time
+    const swimdistance = json.ytd_swim_totals.distance
+    const swimtime = json.ytd_swim_totals.moving_time
 
     const distance = rundistance + bikedistance + swimdistance
     const time = runtime + biketime + swimtime
