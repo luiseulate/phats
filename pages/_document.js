@@ -1,4 +1,5 @@
 import Document, { Html, Head, Main, NextScript } from 'next/document'
+import { Header } from '../components/Header'
 import { Footer } from '../components/Footer'
 
 class MyDocument extends Document {
@@ -30,6 +31,7 @@ class MyDocument extends Document {
         <body className="is-preload">
           <Main />
           <NextScript />
+          <Header />
           <Footer />
           <script src="/static/assets/js/scripts.js"></script>
         </body>
