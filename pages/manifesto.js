@@ -5,7 +5,7 @@ export default function Home() { return (
     <div id="overlay"></div>
     <div id="main">
         <div className="stats">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque pellentesque fringilla ipsum, commodo pharetra elit mattis id. Mauris viverra malesuada enim, vitae pulvinar nibh ornare at. Suspendisse vulputate arcu convallis, dignissim est porta, ullamcorper turpis. Quisque quis lectus dignissim, imperdiet erat ac, sagittis velit. In non ex ut sapien volutpat convallis. Cras iaculis maximus metus quis feugiat. Nulla auctor urna quis congue vestibulum.</p>
+            <div className="stats-measure kilometers">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse id volutpat purus. Nunc volutpat mauris eget felis sodales hendrerit. Integer ut nulla ut enim volutpat accumsan. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras ullamcorper turpis eu dolor commodo, in pellentesque ante convallis.</div>
         </div>
     </div>
 </div>
