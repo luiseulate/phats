@@ -22,8 +22,8 @@ class MyDocument extends Document {
         <link rel="manifest" href="/static/assets/css/images/ico/site.webmanifest" />
         <link rel="mask-icon" href="/static/assets/css/images/ico/safari-pinned-tab.svg" color="#18bc9c" />
         <link rel="shortcut icon" href="/static/assets/css/images/ico/favicon.ico" />
-        <meta name="apple-mobile-web-app-title" content="Luis Martínez" />
-        <meta name="application-name" content="Luis Martínez" />
+        <meta name="apple-mobile-web-app-title" content="Luis Eulate" />
+        <meta name="application-name" content="Luis Eulate" />
         <meta name="msapplication-TileColor" content="#00aba9" />
         <meta name="msapplication-config" content="/static/assets/css/images/ico/browserconfig.xml" />
         <meta name="theme-color" content="#ffffff" />
