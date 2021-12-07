@@ -5,7 +5,6 @@ export default function Home() { return (
   
     <div id="wrapper">
     <div id="bg"></div>
-    <div id="overlay"></div>
     <div id="main">
         <div className="stats">
             <div className="stats-kilometers"><span className="count"><StravaKilometers /></span></div>
