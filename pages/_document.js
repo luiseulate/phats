@@ -12,10 +12,10 @@ class MyDocument extends Document {
     return (
       <Html>
         <meta charset="utf-8" />
-        <meta name="description" content="Luis Martínez - Fotografía y vídeo de montaña" />
-        <meta name="author" content="Luis Martínez" />
+        <meta name="description" content="Luis Eulate - Rutas y vídeos de montaña" />
+        <meta name="author" content="Luis Eulate" />
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-        <title>Luis Martínez - Fotografía y vídeo de montaña</title>
+        <title>Luis Eulate - Rutas y vídeos de montaña</title>
         <link rel="apple-touch-icon" sizes="180x180" href="/static/assets/css/images/ico/apple-touch-icon.png" />
         <link rel="icon" type="image/png" sizes="32x32" href="/static/assets/css/images/ico/favicon-32x32.png" />
         <link rel="icon" type="image/png" sizes="16x16" href="/static/assets/css/images/ico/favicon-16x16.png" />
